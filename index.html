@@ -20,7 +20,6 @@
 
   <main>
 
-
     <section class="about">
       <h2 class="about__heading">About Us</h2>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -82,11 +81,12 @@
       <h2 class="contact__heading">Contact Us</h2>
       <form action="/form-data" class="contact__form">
         <label for="name" class="contact__label">Name:</label>
-        <input id="name" type="text" name="client-name" class="contact__input">
+        <input id="name" type="text" name="client-name" class="contact__input" placeholder="John Doe">
         <label for="email" class="contact__label">Email:</label>
-        <input id="email" type="email" name="client-email" class="contact__input">
-        <label for="message" class="contact__label">What's your problem?</label>
+        <input id="email" type="email" name="client-email" class="contact__input" placeholder="john@doe.com">
+        <label for="message" class="contact__label">How can we help you?</label>
         <textarea id="message" name="client-message" class="contact__message"></textarea>
+        <button type="submit">Submit!</button>
       </form>
     </section>
 
