@@ -2,6 +2,10 @@
     /* border: 3px solid red; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -39,6 +43,14 @@ h3 {
 
 }
 
+.blockquote > p {
+  font-style: bold;
+}
+
+.cite {
+  font-size: 0.6rem;
+}
+
 .logo {
     display: block;
     margin-top: 8rem;
@@ -48,7 +60,52 @@ h3 {
     /* overflow:hidden; */
 }
 
-.header {}
+
+.team__codewars-logo {
+  margin: auto;
+  background-color:  #216114;
+  border-radius: 25%;
+  width: 43px;
+  vertical-align:text-bottom;
+  padding: 2px;
+}
+
+.fab {
+  color: #216114;
+  text-decoration: none;
+  vertical-align:text-bottom;
+  /* background: linear-gradient( hsl(350, 46%, 68%), #8d5d5d, #350a49); */
+  }
+  
+  .fab:hover, .team__codewars-logo:hover {
+  transform: scale(1.3) ;
+  transition: transform 0.3s ease-in-out;
+  }
+  
+
+/* .header {
+
+}
+
+.footer {
+  padding-bottom: .5rem;
+  margin-bottom: 5px;
+} */
+
+
+.team__aside > p {
+  line-height: 1;
+  padding: 0 2rem;
+}
+ 
+/* USING LOGO INSTEAD
+.header__heading {
+    font-size: 10rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding: 50px 50px 0px 50px;
+    margin-block-end: 0em;
+} */
+
 
 /*  */
 
@@ -56,13 +113,18 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     padding: 5px;
-    >>>>>>>master
+
+    text-decoration: underline;
+
 }
 
 .about {
     margin: 0px;
-    padding: 5px 40px 5px 40px;
+    padding: 5px 40px 5px 40px ;
+}
 
+.about > p > a {
+  color: white;
 }
 
 /* .about__heading {
@@ -77,7 +139,12 @@ h3 {
 
 .team__heading {}
 
-.team__figure {}
+.team__figure {
+  /* margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%; */
+}
 
 .team__caption {
     font-size: 2rem;
@@ -98,18 +165,30 @@ h3 {
 }
 
 .team__article {
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .team__image-cropper {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: background 1s, transform 0.3s;
+  opacity: .85;
 }
 
-.team__image {}
+.team__image-cropper:hover {
+  transform: rotate(360deg) scale(0.9);
+  opacity: 1;
+}
+
+.team__image {
+}
 
 .team__codewars {
     height: auto;
@@ -131,26 +210,43 @@ h3 {
 
 .portfolio__heading {}
 
-.testimonials {}
-
-.testimonials__heading {}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0;
-    background-color: #f4f4f4;
+.testimonials {
+  margin: 0px;
+  padding: 5px 40px 5px 40px;
 }
 
-.contact__heading {}
+.testimonials__heading {
+
+}
+
+.contact {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  background-color: #f4f4f4;
+  padding-bottom: 3rem;
+  color: #274d1f;
+}
+
+.contact__heading {
+  color: #274d1f;
+  
+}
 
 .contact__form {
-    margin: auto;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.button {
+  color: green;
+  font-size: 1.5rem;f
 }
 
 .address {}
