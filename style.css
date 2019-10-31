@@ -1,5 +1,5 @@
 * {
-    /* border: 3px solid red; */
+    /* border: 1px solid red; */
 }
 
 body {
@@ -8,6 +8,11 @@ body {
     flex-direction: column;
     text-align: center;
     color: white;
+    /* font-family: 'Staatliches', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0px; */
+    font-size: 16px;
+
 }
 
 .parallax {
@@ -20,16 +25,30 @@ body {
     margin: 0;
 }
 
-.header {}
+.header {
 
-.header__heading {
-    font-size: 100px;
-    mix-blend-mode: none;
 }
 
-.about {}
+.header__heading {
+    font-size: 10rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    padding: 50px 50px 0px 50px;
+    margin-block-end: 0em;
+}
 
-.about__heading {}
+.header__headline {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+.about {
+    margin: 0px;
+    padding: 50px;
+}
+
+.about__heading {
+    padding: 
+}
 
 .team {
     background-color: #F9EAE3
@@ -98,11 +117,12 @@ a {
     position: fixed;
     width: 100%;
     z-index: 3;
+    /* margin: 0px, 60px, 0px, 60px; */
 }
 
 .navigation ul {
     margin: 0;
-    padding: 0;
+    /* padding: 0, 0, 0, 60px; */
     list-style: none;
     overflow: hidden;
     background-color: #fff;
