@@ -266,41 +266,6 @@ a {
     top: 0;
 }
 
-@media (min-width: 600px) {
-    .navigation li {
-        float: left;
-    }
-
-    .navigation li a {
-        padding: 20px 30px;
-    }
-
-    .navigation .navigation__list {
-        clear: none;
-        float: right;
-        max-height: none;
-    }
-
-    .navigation .menu__icon {
-        display: none;
-    }
-
-    .about {
-        padding: 10px 250px 15px 250px;
-
-    }
-
-    .team__flex-wrapper {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .team__flex-subwrapper {
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-}
 
 
 /* PORTFOLIO STYLING */
@@ -309,8 +274,17 @@ a {
     border-top: 1px solid lightgreen;
 }
 
-.portfolio__wrapper: {
+.portfolio__wrapper {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio__subwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -379,4 +353,58 @@ address {
 
 footer p {
     margin-bottom: 3em;
+}
+
+
+@media (min-width: 600px) {
+    .navigation li {
+        float: left;
+    }
+
+    .navigation li a {
+        padding: 20px 30px;
+    }
+
+    .navigation .navigation__list {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .navigation .menu__icon {
+        display: none;
+    }
+
+    .about {
+        padding: 10px 250px 15px 250px;
+
+    }
+
+    .team__flex-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .team__flex-subwrapper {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .portfolio__subwrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .portfolio__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* width: 100%; */
+    }
+
+    .portfolio__project {
+        margin: 1em;
+    }
 }
