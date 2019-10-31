@@ -74,12 +74,20 @@ body {
 
 }
 
-.team__list {
-  list-style: none;
+.team__codewars {
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
 }
 
-.team__listitem {
-  display: inline;
+.team__aside {
+  text-align: center;
+}
+
+.team__link-para {
+  font-size: 48px;
+  
 }
 
 .portfolio {}
