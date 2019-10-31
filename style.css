@@ -51,6 +51,13 @@ body {
   align-items: center;
 }
 
+.team__flex-subwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .team__article {
   text-align: center;
 }
@@ -235,5 +242,12 @@ a {
 
   .team__flex-wrapper {
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .team__flex-subwrapper {
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
