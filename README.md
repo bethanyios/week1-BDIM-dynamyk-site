@@ -1,5 +1,9 @@
 # Dynamyk site project [TEAM BDIM]
 
+![](https://i.imgur.com/RWJnaXH.png)
+
+[**Want us to build you a beautiful product to change the world? Check out our site!**](https://fac18.github.io/dynamyk-site/)
+
 ## Authors
 
 * Dan [@plasticneuron](https://github.com/plasticneuron)
