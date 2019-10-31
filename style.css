@@ -30,6 +30,8 @@ body {
 
 .about__heading {}
 
+/* TEAM SECTION */
+
 .team {
   color: black;
 }
@@ -38,25 +40,9 @@ body {
 
 .team__figure {}
 
-.team__figure--beth {}
-
-.team__figure--dan {}
-
-.team__figure--pat {}
-
-.team__figure--reda {}
-
 .team__caption {
   font-size: 2rem;
 }
-
-.team__caption--beth {}
-
-.team__caption--dan {}
-
-.team__caption--pat {}
-
-.team__caption--reda {}
 
 .team__flex-wrapper {
   display: flex;
@@ -69,9 +55,16 @@ body {
   text-align: center;
 }
 
+.team__image-cropper {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
 .team__image {
-  object-fit: contain;
-  object-position: center;
+
 }
 
 .team__list {
