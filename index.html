@@ -9,12 +9,12 @@
   <script src="https://kit.fontawesome.com/36593718b0.js"></script>
   <title>Dynamyk - A creative web development agency</title>
 
-   <!-- Google Fonts -->
-   <style>
-@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-</style>
+  <!-- Google Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat+Subrayada&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+  </style>
 
 </head>
 
@@ -44,11 +44,14 @@
 
     <section class="about parallax" aria-label="about us" id="about__anchor">
       <h2 class="about__heading"></h2>
-      <p>We're a friendly team of storytellers, designers and full-stack developers that can help you bring your ideas to life.</p>  
+      <p>We're a friendly team of storytellers, designers and full-stack developers that can help you bring your ideas
+        to life.</p>
 
-      <p>We make websites and applications across all platforms for organisations dedicated to making the world a better place.</p>
+      <p>We make websites and applications across all platforms for organisations dedicated to making the world a better
+        place.</p>
 
-      <p><a href="#portfolio__heading">Explore our work.</a> We've partnered with some incredible charities and NFPs on a range of projects, helping them to reach their audiences and achieve their goals.</p>
+      <p><a href="#portfolio__heading">Explore our work.</a> We've partnered with some incredible charities and NFPs on
+        a range of projects, helping them to reach their audiences and achieve their goals.</p>
     </section>
 
     <section class="team" id="team__anchor">
@@ -72,6 +75,7 @@
                 href='https://github.com/bethanyios'></a>
                 <a class="team__link"  aria-label="Link to Beth's Codewars" href='https://www.codewars.com/users/bethanyios'><img class="team__codewars-logo"  alt="codewars logo" src='images/codewars-logo-white.png'></a>
                 <a class="team__link fab fa-linkedin"  aria-label="Link to Beth's LinkedIn" href='https://www.linkedin.com/in/bethanyioscott/'></a>
+
               </p>
             </aside>
           </article>
@@ -91,6 +95,7 @@
                 <a class="team__link fab fa-github-square"  aria-label="Link to Dan's Github" href='https://github.com/plasticneuron'></a>
                 <a class="team__link"  aria-label="Link to Dan's Codewars"  href='https://www.codewars.com/users/plasticneuron'><img class="team__codewars-logo"  alt="codewars logo" src='images/codewars-logo-white.png'></a>
                 <a class="team__link fab fa-linkedin"  aria-label="Link to Dan's LinkedIn" href='https://www.linkedin.com/'></a>
+
               </p>
             </aside>
           </article>
@@ -112,6 +117,7 @@
                 <a class="team__link fab fa-github-square"  aria-label="Link to Pat's Github" href='https://github.com/pat-cki'></a>
                 <a class="team__link"  aria-label="Link to Pat's Codewars" href='https://www.codewars.com/users/pat-cki'><img class="team__codewars-logo"  alt="codewars logo" src='images/codewars-logo-white.png'></a>
                 <a class="team__link fab fa-linkedin"  aria-label="Link to Pat's LinkedIn" href='https://www.linkedin.com/in/pat-cichocki-738b336a/'></a>
+
               </p>
             </aside>
           </article>
@@ -141,12 +147,29 @@
 
     <section class="portfolio" id="portfolio__heading">
       <h2 class="portfolio__heading">Portfolio</h2>
-
-
-
+      <div class="portfolio__wrapper">
+        <div class="portfolio__subwrapper">
+          <article class="portfolio__project">
+            <img class="portfolio__image" src="images/project1.jpg" alt="project1">
+            <p class="portfolio__caption">Project 1</p>
+          </article>
+          <article class="portfolio__project">
+            <img class="portfolio__image" src="images/project2.jpg" alt="project2">
+            <p class="portfolio__caption">Project 2</p>
+          </article>
+        </div>
+        <div class="portfolio__subwrapper">
+          <article class="portfolio__project">
+            <img class="portfolio__image" src="images/project3.jpg" alt=" project3">
+            <p class="portfolio__caption">Project 3</p>
+          </article>
+          <article class="portfolio__project">
+            <img class="portfolio__image" src='images/project4.jpg' alt="project4">
+            <p class="portfolio__caption">Project 4</p>
+          </article>
+        </div>
+      </div>
     </section>
-
-
 
     <section class="testimonials parallax" aria-label="testimonials" id="testimonials__anchor"> 
       
@@ -168,7 +191,7 @@
 
 
     <section class="contact" id="contact__heading">
-      <h2 class="contact__heading">Contact Us</h2>
+      <h2 class="contact__heading">Get in touch with us to build something great</h2>
       <form action="/form-data" class="contact__form">
         <label for="name" class="contact__label">Name:</label>
         <input id="name" type="text" name="client-name" class="contact__input" placeholder="John Doe">
@@ -179,12 +202,12 @@
         <button type="submit">Submit!</button>
       </form>
     </section>
-
   </main>
 
   <footer class="parallax">
+    <address class="address">Space4, 1st floor 149 Fonthill Road, Finsbury Park, London N4 3HF</address>
+    <p> copyright 2019 </p>
 
-    <p> 115 Fonthill Road, Finsbury Park, London, N4 3HH </p>
   </footer>
 
 </body>
