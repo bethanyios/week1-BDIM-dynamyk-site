@@ -3,6 +3,7 @@
 }
 
 body {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -95,7 +96,34 @@ background-color: #F9EAE3
 .testimonials__heading {}
 
 .contact {}
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header__heading .about .about__heading {}
+>>>>>>> master
 
 .contact-heading {}
 
+<<<<<<< HEAD
+=======
+.team__heading .team__figure .team__figure--beth .team__figure--dan .team__figure--pat .team__figure--reda .team__caption .team__caption--beth .team__caption--dan .team__caption--pat .team__caption--reda .portfolio .portfolio__heading .testimonials .testimonials__heading {}
+
+.contact {
+
+}
+
+.contact__heading {}
+
+.contact__form {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+>>>>>>> master
 .address {}
