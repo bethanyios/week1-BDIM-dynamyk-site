@@ -365,7 +365,8 @@ a {
 
 /* FORM STYLING */
 h2 {
-  color: #333;
+    color: #333;
+    padding-top: 3em;
 }
 
 label.contact__label {
