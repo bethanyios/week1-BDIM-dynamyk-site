@@ -28,7 +28,8 @@ body {
 
 p {
     font-size: 1.2rem;
-    line-height: 1.6;
+    line-height: 2;
+    padding: 1.5rem;
 }
 
 h2 {
@@ -41,11 +42,6 @@ h3 {
   /* margin-block-start: 0;
     margin-block-end: 0; */
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-
-.cite {
-  font-size: 0.6rem;
 }
 
 .logo {
@@ -81,11 +77,10 @@ h3 {
 }
 
 
-/* =======
-.team__aside>p {
+/* .team__aside>p {
   line-height: 1;
   padding: 0 2rem;
-} */
+}  */
 
 
 .header__heading {
@@ -93,7 +88,6 @@ h3 {
     font-family: 'Montserrat Subrayada', sans-serif;
     padding: 50px 50px 0px 50px;
     margin-block-end: 0em;
-
 }
 
 .header__headline {
@@ -112,16 +106,10 @@ h3 {
   color: white;
 }
 
-/* .about__heading {
-} */
 /* TEAM SECTION */
 .team {
   color: black;
   background-color: white;
-}
-
-.team__heading {
-
 }
 
 .team__figure {
@@ -171,8 +159,6 @@ h3 {
   opacity: 1;
 }
 
-.team__image {}
-
 .team__codewars {
   height: auto;
   width: auto;
@@ -202,19 +188,19 @@ h3 {
   margin: 0.2em;
 }
 
-.portfolio {}
-
-.portfolio__heading {}
+.testimonial__heading {
+  color: white;
+  font-size: 1.5rem;
+}
 
 .testimonials {
   margin: 0px;
   padding: 5px 40px 5px 40px;
 }
 
-.testimonials__heading {}
-
-.testimonials__paragraph {
-    padding-top: 3em;
+cite > p {
+  font-size: 0.9rem;
+  padding-top: 0;
 }
 
 .contact {
@@ -243,10 +229,7 @@ h3 {
 .button {
   color: green;
   font-size: 1.5rem;
-  f
 }
-
-.address {}
 
 /* NAVIGATION */
 a {
@@ -333,7 +316,7 @@ a {
   top: -5px;
 }
 
-/* menu btn */
+/* MENU BTN */
 .navigation .menu__button {
   display: none;
 }
@@ -433,6 +416,8 @@ button:hover {
 /* /FOOTER STYLING */
 footer {
   background-color: #005207;
+  padding-bottom: .5rem;
+  margin-bottom: 5px;
 }
 
 address {
@@ -465,7 +450,8 @@ footer p {
 
     p {
         font-size: 1.5rem;
-        line-height: 1.8;
+        line-height: 1.6;
+        padding-bottom: 2rem;
     }
 
     .header__heading {
@@ -473,7 +459,11 @@ footer p {
     }
 
     .about {
-        padding: 10px 250px 15px 250px;
+        padding: 100px 250px 15px 250px;
+    }
+
+    .team {
+        padding-top: 100px;
     }
 
     .team__flex-wrapper {
@@ -485,6 +475,10 @@ footer p {
     .team__flex-subwrapper {
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+
+    .portfolio {
+        padding-top: 100px;
     }
 
     .portfolio__subwrapper {
@@ -503,5 +497,18 @@ footer p {
     .portfolio__project {
         margin: 1em;
     }
+
+    .testimonials {
+        padding-top: 100px;
+    }
+
+    .testimonial__heading {
+        font-size: 2.5rem;
+      }
+
+      cite > p {
+        font-size: 1.2rem;
+        padding-top: 0;
+      }
 }
 
