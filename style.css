@@ -1,5 +1,6 @@
-* {
+
   /* border: 3px solid red; */
+
 }
 
 html {
@@ -26,13 +27,15 @@ body {
 }
 
 p {
-  font-size: 1.5rem;
-  line-height: 1.6;
+    font-size: 1.2rem;
+    line-height: 2;
+    padding: 1.5rem;
 }
 
 h2 {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 2.5rem;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 2.5rem;
+    color: #333;
 }
 
 h3 {
@@ -59,31 +62,33 @@ h3 {
   padding: 2px;
 }
 
+/* fab is a fontawesome clas. Fontawesome icon styling */
 .fab {
   color: #216114;
   text-decoration: none;
   vertical-align: text-bottom;
   /* background: linear-gradient( hsl(350, 46%, 68%), #8d5d5d, #350a49); */
-}
+  }
 
-.fab:hover,
-.team__codewars-logo:hover {
-  transform: scale(1.3);
+  /* fab is a fontawesome class */
+  .fab:hover, .team__codewars-logo:hover {
+  transform: scale(1.3) ;
   transition: transform 0.3s ease-in-out;
 }
 
-.team__aside>p {
+
+/* .team__aside>p {
   line-height: 1;
   padding: 0 2rem;
-}
+}  */
 
-/* USING LOGO INSTEAD
+
 .header__heading {
-    font-size: 10rem;
+    font-size: 2.5rem;
     font-family: 'Montserrat Subrayada', sans-serif;
     padding: 50px 50px 0px 50px;
     margin-block-end: 0em;
-} */
+}
 
 .header__headline {
   font-family: 'Montserrat', sans-serif;
@@ -93,8 +98,8 @@ h3 {
 }
 
 .about {
-  margin: 0px;
-  padding: 5px 40px 5px 40px;
+    margin: 0px;
+    padding: 5px 10px 5px 10px;
 }
 
 .about>p>a {
@@ -165,6 +170,13 @@ h3 {
   text-align: center;
 }
 
+.team__aside > p {
+    text-align: center;
+    line-height: 1;
+    padding: 0 2rem;
+}
+
+
 .team__link-para {
   font-size: 48px;
   display: flex;
@@ -186,12 +198,9 @@ h3 {
   padding: 5px 40px 5px 40px;
 }
 
-.blockquote>p {
-  font-style: bold;
-}
-
-.cite {
-  font-size: 0.6rem;
+cite > p {
+  font-size: 0.9rem;
+  padding-top: 0;
 }
 
 .contact {
@@ -365,7 +374,7 @@ a {
 }
 
 /* FORM STYLING */
-h2 {
+.contact__heading {
     color: #333;
     padding-top: 3em;
 }
@@ -416,60 +425,90 @@ address {
 }
 
 footer p {
-  margin-bottom: 3em;
+    margin-bottom: 3em;
+    font-size: 0.9rem;
 }
 
 @media (min-width: 600px) {
-  .navigation li {
-    float: left;
-  }
+    .navigation li {
+        float: left;
+    }
 
-  .navigation li a {
-    padding: 20px 30px;
-  }
+    .navigation li a {
+        padding: 20px 30px;
+    }
 
-  .navigation .navigation__list {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
+    .navigation .navigation__list {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
 
-  .navigation .menu__icon {
-    display: none;
-  }
+    .navigation .menu__icon {
+        display: none;
+    }
 
-  .about {
-    padding: 10px 250px 15px 250px;
-  }
+    p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        padding-bottom: 2rem;
+    }
 
-  .team__flex-wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    .header__heading {
+        font-size: 10rem;
+    }
 
-  .team__flex-subwrapper {
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
+    .about {
+        padding: 100px 250px 15px 250px;
+    }
 
-  .portfolio__subwrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-  }
+    .team {
+        padding-top: 100px;
+    }
 
-  .portfolio__wrapper {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+    .team__flex-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-  .portfolio__project {
-    margin: 1em;
-  }
+    .team__flex-subwrapper {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 
-  .testimonial__heading {
-    font-size: 2.5rem;
-  }
+    .portfolio {
+        padding-top: 100px;
+    }
+
+    .portfolio__subwrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .portfolio__wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* width: 100%; */
+    }
+
+    .portfolio__project {
+        margin: 1em;
+    }
+
+    .testimonials {
+        padding-top: 100px;
+    }
+
+    .testimonial__heading {
+        font-size: 2.5rem;
+      }
+
+      cite > p {
+        font-size: 1.2rem;
+        padding-top: 0;
+      }
 }
+
