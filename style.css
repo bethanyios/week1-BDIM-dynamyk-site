@@ -1,5 +1,6 @@
-* {
-    border: 3px solid red;
+
+  /* border: 3px solid red; */
+
 }
 
 html {
@@ -7,23 +8,22 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
 .parallax {
-    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .99)), url("https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
-    min-height: 300px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .99)), url("https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 
 p {
@@ -38,37 +38,31 @@ h2 {
 }
 
 h3 {
-    /* margin-block-start: 0;
+  /* margin-block-start: 0;
     margin-block-end: 0; */
-    background-color: rgba(0, 0, 0, 0.5);
-
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quote > p {
-  /* text-transform: uppercase; */
-  /* font-weight: 1500; */
-}
 
 .cite {
   font-size: 0.6rem;
 }
 
 .logo {
-    display: block;
-    margin-top: 8rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    /* overflow:hidden; */
+  display: block;
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  /* overflow:hidden; */
 }
-
 
 .team__codewars-logo {
   margin: auto;
-  background-color:  #216114;
+  background-color: #216114;
   border-radius: 25%;
   width: 43px;
-  vertical-align:text-bottom;
+  vertical-align: text-bottom;
   padding: 2px;
 }
 
@@ -76,44 +70,37 @@ h3 {
 .fab {
   color: #216114;
   text-decoration: none;
-  vertical-align:text-bottom;
+  vertical-align: text-bottom;
   /* background: linear-gradient( hsl(350, 46%, 68%), #8d5d5d, #350a49); */
   }
-  
+
   /* fab is a fontawesome class */
   .fab:hover, .team__codewars-logo:hover {
   transform: scale(1.3) ;
   transition: transform 0.3s ease-in-out;
-  }
-  
-
-/* .header {
-
 }
 
-.footer {
-  padding-bottom: .5rem;
-  margin-bottom: 5px;
+
+/* =======
+.team__aside>p {
+  line-height: 1;
+  padding: 0 2rem;
 } */
- 
-/* USING LOGO INSTEAD */
+
+
 .header__heading {
     font-size: 2.5rem;
     font-family: 'Montserrat Subrayada', sans-serif;
     padding: 50px 50px 0px 50px;
     margin-block-end: 0em;
+
 }
 
-
-/*  */
-
 .header__headline {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    padding: 5px;
-
-    text-decoration: underline;
-
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  padding: 5px;
+  text-decoration: underline;
 }
 
 .about {
@@ -121,21 +108,21 @@ h3 {
     padding: 5px 10px 5px 10px;
 }
 
-.about > p > a {
+.about>p>a {
   color: white;
 }
 
 /* .about__heading {
 } */
-
 /* TEAM SECTION */
-
 .team {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
-.team__heading {}
+.team__heading {
+
+}
 
 .team__figure {
   /* margin-left: auto;
@@ -145,21 +132,21 @@ h3 {
 }
 
 .team__caption {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .team__flex-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .team__flex-subwrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .team__article {
@@ -167,7 +154,6 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .team__image-cropper {
@@ -185,18 +171,17 @@ h3 {
   opacity: 1;
 }
 
-.team__image {
-}
+.team__image {}
 
 .team__codewars {
-    height: auto;
-    width: auto;
-    max-width: 30px;
-    max-height: 30px;
+  height: auto;
+  width: auto;
+  max-width: 30px;
+  max-height: 30px;
 }
 
 .team__aside {
-    text-align: center;
+  text-align: center;
 }
 
 .team__aside > p {
@@ -207,8 +192,14 @@ h3 {
 
 
 .team__link-para {
-    font-size: 48px;
+  font-size: 48px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 
+.team__link {
+  margin: 0.2em;
 }
 
 .portfolio {}
@@ -220,12 +211,13 @@ h3 {
   padding: 5px 40px 5px 40px;
 }
 
-.testimonials__heading {
+.testimonials__heading {}
 
+.testimonials__paragraph {
+    padding-top: 3em;
 }
 
 .contact {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,7 +230,6 @@ h3 {
 
 .contact__heading {
   color: #274d1f;
-  
 }
 
 .contact__form {
@@ -251,208 +242,207 @@ h3 {
 
 .button {
   color: green;
-  font-size: 1.5rem;f
+  font-size: 1.5rem;
+  f
 }
 
 .address {}
 
 /* NAVIGATION */
 a {
-    color: #000;
+  color: #000;
 }
 
 .navigation {
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    z-index: 3;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
 .navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
 }
 
 .navigation li a {
-    display: block;
-    padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
-    text-decoration: none;
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
 }
 
 .navigation li a:hover,
 .navigation .menu__button:hover {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
 }
 
 .navigation .navigation__logo {
-    display: block;
-    float: left;
-    font-size: 2em;
-    padding: 10px 20px;
-    text-decoration: none;
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
 }
 
 /* menu */
 .navigation .navigation__list {
-    clear: both;
-    max-height: 0;
-    transition: max-height .2s ease-out;
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
 }
 
 /* menu icon */
 .navigation .menu__icon {
-    cursor: pointer;
-    display: inline-block;
-    float: right;
-    padding: 28px 20px;
-    position: relative;
-    user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
 }
 
 .navigation .menu__icon .navicon {
-    background: #333;
-    display: block;
-    height: 2px;
-    position: relative;
-    transition: background .2s ease-out;
-    width: 18px;
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
 }
 
 .navigation .menu__icon .navicon:before,
 .navigation .menu__icon .navicon:after {
-    background: #333;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
 }
 
 .navigation .menu__icon .navicon:before {
-    top: 5px;
+  top: 5px;
 }
 
 .navigation .menu__icon .navicon:after {
-    top: -5px;
+  top: -5px;
 }
 
 /* menu btn */
 .navigation .menu__button {
-    display: none;
+  display: none;
 }
 
 .navigation .menu__button:checked~.navigation__list {
-    max-height: 300px;
+  max-height: 300px;
 }
 
 .navigation .menu__button:checked~.menu__icon .navicon {
-    background: transparent;
+  background: transparent;
 }
 
 .navigation .menu__button:checked~.menu__icon .navicon:before {
-    transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .navigation .menu__button:checked~.menu__icon .navicon:after {
-    transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .navigation .menu__button:checked~.menu__icon:not(.steps) .navicon:before,
 .navigation .menu__button:checked~.menu__icon:not(.steps) .navicon:after {
-    top: 0;
+  top: 0;
 }
 
-
-
 /* PORTFOLIO STYLING */
-
 .portfolio {
-    border-top: 1px solid lightgreen;
+  border-top: 1px solid lightgreen;
 }
 
 .portfolio__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .portfolio__subwrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .portfolio__caption {
-    color: #333;
+  color: #333;
 }
 
 .portfolio__project {
-    padding-bottom: 2em;
+  padding-bottom: 2em;
 }
 
 .portfolio__image {
-    border: 1px solid lightgreen;
+  border: 1px solid lightgreen;
 }
 
-
 /* FORM STYLING */
+.contact__heading {
+    color: #333;
+    padding-top: 3em;
+}
 
 label.contact__label {
-    text-transform: uppercase;
-    text-align: left;
-    margin-top: 1em;
-    color: #333;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 1em;
+  color: #333;
 }
 
 input {
-    display: inline-block;
-    padding: 1em;
-    line-height: 140%;
+  display: inline-block;
+  padding: 1em;
+  line-height: 140%;
 }
 
 textarea {
-    margin-bottom: 1.5em;
-    min-height: 10em;
+  margin-bottom: 1.5em;
+  min-height: 10em;
 }
 
 button {
-    padding: 1em;
-    background-color: #01910d;
-    text-transform: uppercase;
-    font-size: 1em;
-    color: white;
-    margin-bottom: 5em;
-    opacity: 0.5;
-    transition: all 0.5s ease-in-out;
+  padding: 1em;
+  background-color: #01910d;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: white;
+  margin-bottom: 5em;
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
 }
 
 button:hover {
-    opacity: 1;
-    scale: 1.1;
+  opacity: 1;
+  scale: 1.1;
 }
 
 /* /FOOTER STYLING */
-
 footer {
-    background-color: #005207;
+  background-color: #005207;
 }
 
 address {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
 footer p {
     margin-bottom: 3em;
     font-size: 0.9rem;
 }
-
 
 @media (min-width: 600px) {
     .navigation li {
@@ -475,6 +465,7 @@ footer p {
 
     p {
         font-size: 1.5rem;
+        line-height: 1.8;
     }
 
     .header__heading {
@@ -513,3 +504,4 @@ footer p {
         margin: 1em;
     }
 }
+

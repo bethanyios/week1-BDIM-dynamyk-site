@@ -27,7 +27,7 @@ One of these decisions was to design **mobile-first** and then design for other 
 
 We also decided together to use **Beautify** to render all our code in the same manner.
 
-To make sure we had a good shared understanding of the overall structure of the wesbite, and to avoid having to deal with too mnay conflicts, we produced sketches of the wireframe and content:
+To make sure we had a good shared understanding of the overall structure of the wesbite, and to avoid having to deal with too many conflicts, we produced sketches of the wireframe and content:
 
 ![wire frame of site](https://i.imgur.com/xmGfL9p.jpg) ![content sketching](https://i.imgur.com/spP57x2.jpg)
 
