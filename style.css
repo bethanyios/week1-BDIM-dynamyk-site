@@ -209,6 +209,10 @@ h3 {
 
 .testimonials__heading {}
 
+.testimonials__paragraph {
+    padding-top: 3em;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -384,7 +388,8 @@ a {
 
 /* FORM STYLING */
 h2 {
-  color: #333;
+    color: #333;
+    padding-top: 3em;
 }
 
 label.contact__label {
