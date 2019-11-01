@@ -225,6 +225,10 @@ h3 {
 
 .testimonials__heading {}
 
+.testimonials__paragraph {
+    padding-top: 3em;
+}
+
 .contact {
 
     display: flex;
@@ -408,6 +412,7 @@ a {
 
 h2 {
     color: #333;
+    padding-top: 3em;
 }
 
 label.contact__label {
