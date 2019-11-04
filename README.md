@@ -144,3 +144,7 @@ After our final commit, merge and pull, we ran an audit with Chrome Lighthouse a
 ## Stop Go Continue
 
 ![our team's SGC for Week 1](https://github.com/fac18/dynamyk-site/blob/master/IMG_20191101_164704040.jpg)
+
+## Us presenting!
+
+![dyanmyk presenting their site](team-presentation.jpg)
